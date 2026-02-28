@@ -46,13 +46,13 @@ const plans = [
           :class="[
             'rounded-xl border p-6 shadow-sm transition hover:-translate-y-1',
             plan.popular
-              ? 'border-brand-500 bg-brand-50 shadow-soft dark:border-brand-300 dark:bg-brand-500/10'
+              ? 'border-accent-500 bg-emerald-50 shadow-soft dark:border-accent-500 dark:bg-accent-500/10'
               : 'border-slate-200 bg-slate-50 dark:border-slate-700 dark:bg-slate-900',
           ]"
         >
           <p
             v-if="plan.popular"
-            class="mb-3 inline-flex rounded-full bg-brand-600 px-3 py-1 text-xs font-semibold text-white"
+            class="mb-3 inline-flex rounded-full bg-zinc-800 px-3 py-1 text-xs font-semibold text-white"
           >
             Most Popular
           </p>

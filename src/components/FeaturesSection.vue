@@ -51,7 +51,7 @@ const features = [
           :key="feature.title"
           class="rounded-xl border border-slate-200 bg-slate-50 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-soft dark:border-slate-700 dark:bg-slate-900"
         >
-          <div class="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-brand-100 text-brand-700 dark:bg-brand-500/20 dark:text-brand-100">
+          <div class="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-100 text-emerald-700 dark:bg-accent-500/20 dark:text-emerald-200">
             <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
               <path :d="feature.icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" />
             </svg>

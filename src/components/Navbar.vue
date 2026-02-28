@@ -24,7 +24,7 @@ const links = [
   <header class="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur-lg dark:border-slate-700/60 dark:bg-slate-900/90">
     <nav class="section-container flex h-16 items-center justify-between">
       <a href="#home" class="flex items-center gap-2">
-        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-brand-600 text-sm font-bold text-white">
+        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-zinc-800 text-sm font-bold text-white">
           EP
         </span>
         <span class="text-sm font-semibold text-slate-900 sm:text-base dark:text-white">ERP POS Cloud</span>
@@ -35,7 +35,7 @@ const links = [
           v-for="link in links"
           :key="link.id"
           :href="`#${link.id}`"
-          class="text-sm font-medium text-slate-600 transition hover:text-brand-600 dark:text-slate-300 dark:hover:text-brand-100"
+          class="text-sm font-medium text-slate-600 transition hover:text-accent-600 dark:text-slate-300 dark:hover:text-accent-500"
         >
           {{ link.label }}
         </a>

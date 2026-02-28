@@ -23,7 +23,7 @@ defineProps({
   <div :class="[centered ? 'mx-auto text-center' : 'text-left', 'max-w-3xl']">
     <p
       v-if="eyebrow"
-      class="mb-3 inline-flex rounded-full bg-brand-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-700 dark:bg-brand-500/20 dark:text-brand-100"
+      class="mb-3 inline-flex rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-700 dark:bg-accent-500/20 dark:text-emerald-200"
     >
       {{ eyebrow }}
     </p>

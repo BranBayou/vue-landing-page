@@ -2,7 +2,7 @@
   <section id="home" class="section-container pt-14 pb-16 sm:pt-20 sm:pb-20">
     <div class="grid items-center gap-10 lg:grid-cols-2">
       <div class="animate-fade-up">
-        <p class="mb-4 inline-flex items-center rounded-full bg-brand-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-brand-700 dark:bg-brand-500/20 dark:text-brand-100">
+        <p class="mb-4 inline-flex items-center rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-700 dark:bg-accent-500/20 dark:text-emerald-200">
           Built for retail, pharmacy, and supermarket teams
         </p>
         <h1 class="text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl dark:text-white">
@@ -76,7 +76,7 @@
                 <div class="flex items-center gap-2">
                   <span class="w-16 text-xs text-slate-600 dark:text-slate-300">Central</span>
                   <div class="h-2 flex-1 rounded-full bg-slate-200 dark:bg-slate-700">
-                    <div class="h-2 w-5/6 rounded-full bg-brand-500" />
+                    <div class="h-2 w-5/6 rounded-full bg-zinc-700" />
                   </div>
                 </div>
                 <div class="flex items-center gap-2">
